@@ -14,8 +14,8 @@ The content below represents my personal notes and summaries derived from the Li
 <summary> 1. Introduction </summary>
   
   Key Takeaways:
-  * Introductory course to basic knowledge in AutoCAD in preperation for the Essential Training course.
-  * Excercise files are provided in DWG 2013 format.
+  * Introductory course to basic knowledge in AutoCAD in preparation for the Essential Training course.
+  * Exercise files are provided in DWG 2013 format.
   * Explored the AutoCAD Interface (toolbar, ribbons, status bar) using a .dwg file of an office building.
   * Completed Introduction quiz, 2/2.
 
@@ -23,7 +23,7 @@ The content below represents my personal notes and summaries derived from the Li
   <summary> Introduction.dwg - AutoCAD Interface Layout </summary>
 
   > Introduction.dwg is a floor plan of an office used to explore the AutoCAD Interface.
-  * "Model" Tab - where all deisgn work is done in AutoCAD.
+  * "Model" Tab - where all design work is done in AutoCAD.
   * Quick access toolbar and ribbon, similar to Word or SolidWorks layout.
   * Status Bar controls drafting settings within AutoCAD, used to draft a model accurately and precisely.
 
@@ -39,7 +39,7 @@ The content below represents my personal notes and summaries derived from the Li
   * How to use dialog boxes and palettes.
   * How to use the status bar.
   * Using web and mobile with AutoCAD desktop.
-  * Challange - dock the layer properties and set auto-hide property.
+  * Challenge - dock the layer properties and set auto-hide property.
   * Completed AutoCAD Interface Quiz, 5/5.
 
   <details>
@@ -64,24 +64,24 @@ The content below represents my personal notes and summaries derived from the Li
   * Dialogue boxes have a title at the top and often contain tick boxes or settings that can be toggled.
   * Resizing dialogue boxes return to a default size when making them smaller.
   * Palettes have the title vertically on the side and contain various tools within them.
-  * Resizing a pallatte also have a default minimum size, but you can minimize them to just show the title bar.
-  * You can also expand or reduce the columns in palattes, change the transparency, or dock them.
+  * Resizing a palette also have a default minimum size, but you can minimize them to just show the title bar.
+  * You can also expand or reduce the columns in palettes, change the transparency, or dock them.
 
   **Status Bar**
-  * Allows you to work qukcly with certain processes in AutoCAD.
+  * Allows you to work quickly with certain processes in AutoCAD.
   * AutoCAD runs using dynmode - i.e. if you start typing "line", a menu box will appear next to the crosshair.
   * Dynamic input can be displayed in the status bar menu, but is off by default. Blue = on, grayed = off.
 
   **Web and Mobile**
   * Part of the AutoCAd subscription is the web and mobile variants.
-  * Web allows you to use a browser based interface, and similarly mobile alows you to use AutoCAD on a tablet or phone.
-  * You can also save files to the web and mobile folders via cloud storage on the quick accesss toolbar.
+  * Web allows you to use a browser based interface, and similarly mobile allows you to use AutoCAD on a tablet or phone.
+  * You can also save files to the web and mobile folders via cloud storage on the quick access toolbar.
 
-  **Challange**
+  **Challenge**
   
-  Dock the Layer Properties manager Palette on the left side of the screen and configure auto-hide so it expands when hovered over and dissapears when left.
+  Dock the Layer Properties manager Palette on the left side of the screen and configure auto-hide so it expands when hovered over and disappears when left.
   * To achieve this, I opened the Layers Property Manager, then dragged it to the left hand side so [it was docked.](https://github.com/ashthemech/AutoCAD-Learning/blob/0e62a0c408cc6ba15fcbe49a1262972c15a21546/AutoCAD%20Interface/Docked%20PM.JPG)
-  * Then, I clicked the [auto-hide button](https://github.com/ashthemech/AutoCAD-Learning/blob/d2627833c4dce2a5a0cde41b6d136c15bce10713/AutoCAD%20Interface/Auto-hide%20PM.JPG) and now the LPM palatte reveals itself when I hover over it, and hides when I move my cursor off the menu.
+  * Then, I clicked the [auto-hide button](https://github.com/ashthemech/AutoCAD-Learning/blob/d2627833c4dce2a5a0cde41b6d136c15bce10713/AutoCAD%20Interface/Auto-hide%20PM.JPG) and now the LPM palette reveals itself when I hover over it, and hides when I move my cursor off the menu.
 
 </details>
 </details>
@@ -96,15 +96,15 @@ The content below represents my personal notes and summaries derived from the Li
   * Recreated the rectangular table with arcs using the circle, line, and the trim tool.
 
   <details>
-  <summary> Geometry.dwg - Drawing Simple Geomatry in an AutoCAD File </summary>
+  <summary> Geometry.dwg - Drawing Simple Geometry in an AutoCAD File </summary>
     
-  > Geometry.dwg is the same previous floor plan use in the previous 2 modules.
+  > Geometry.dwg is the same previous floor plan used in the previous 2 modules.
   
   **Using zoom and pan for navigation**
   * Use the crosshairs to navigate the drawing and the mouse wheel to zoom in and out where the crosshairs lie.
   * Holding down the mousewheel reveals a hand which can be used to pan around the drawing.
   * Can also right click on the mouse to zoom or pan from the shortcut menu.
-  * On the rigthand side of the screen is the nav bar with a lot of zoom commands available.
+  * On the right hand side of the screen is the nav bar with a lot of zoom commands available.
 
   **OSNAP and AUTOSNAP**
   * Configured OSNAP for endpoint, midpoint, center, intersection and extension.
@@ -116,7 +116,7 @@ The content below represents my personal notes and summaries derived from the Li
   **POLAR and ORTHO**
   * Continuing in same layer, I made a 1500 metric mm by 1500 metric mm [table using the POLAR tracking](https://github.com/ashthemech/AutoCAD-Learning/blob/ef72715ab3da966c719fe9352d4eaca332f24ac5/Drawing%20Simple%20Geometry/polar%20tracking%20table.JPG) at 90 degrees with the line tool.
   * I repeated the process above, turning off POLAR tracking and this time using the ORTHO tracking with the line tool, restricting to lines only the x and y axis.
-  * ORTHO is great for strictly horizintal and vertical drafting when thta is necessary, while POLAR seems much more versatile with various angles.
+  * ORTHO is great for strictly horizontal and vertical drafting when that is necessary, while POLAR seems much more versatile with various angles.
 
   **Creating Lines, Arcs, and Circles**
   * Erased the square tables by selecting the 8 lines created, right clicking and erasing.
