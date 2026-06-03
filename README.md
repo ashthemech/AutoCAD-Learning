@@ -96,6 +96,7 @@ The content below represents my personal notes and summaries derived from the Li
   * Recreated the rectangular table with arcs using the circle, line, and the trim tool.
   * Learned how to use the polyline and polygon tool by recreating a version of the previous rectangular table and how to use spline tool and match properties by creating a wavy wall.
   * Completed the challenge objective to create a table with a circular insert using polyline and circle tools.
+  * Took the Simple Geometry Quiz, 6/7 then retook and 7/7.
 
   <details>
   <summary> Geometry.dwg - Drawing Simple Geometry in an AutoCAD File </summary>
@@ -131,7 +132,7 @@ The content below represents my personal notes and summaries derived from the Li
   * This was repeated for the bottom and left side, and the [table was again created](https://github.com/ashthemech/AutoCAD-Learning/blob/ad03c77413350e85a0ceca62c9d2b2c8813001d7/Drawing%20Simple%20Geometry/Polyline%20Table.JPG) wihtout the center circle.
   * I then added the inner circle to the table using the center, radius tool and setting to 650 mm for the [finished table](https://github.com/ashthemech/AutoCAD-Learning/blob/a8dfbc4b166bb43e094e7a7145fb3dd68f39082f/Drawing%20Simple%20Geometry/Polyline%20Table%20with%20Circle.JPG).
   * A 6 sided polygon was added using the polygon tool and inscribed in the circle of the table, then I erased the circle to have only the [polygon remaining](https://github.com/ashthemech/AutoCAD-Learning/blob/80065ebbaffea6c02efe6cc9da9a8fe2a6a9621f/Drawing%20Simple%20Geometry/Polyline%20Table%20with%20Polygon.JPG).
-  * Explored the measurement tool in utilities to see how it can be used to measure distances within the drawing, measure the thickness of an adjacent wall to be 120.65mm.
+  * Explored the measurement tool in utilities to see how it can be used to measure distances within the drawing, measuring the thickness of an adjacent wall to be 120.65mm.
   * Used the spline too to create a wavy line, then set the thickness using the offset tool to set the wavy line be the same thickness as the adjacent wall.
   * Then I used the line tool to complete the wall and the extend tool to extend the lower side of the wall to the [adjacent wall](https://github.com/ashthemech/AutoCAD-Learning/blob/438ced633edcc4f8303de62fc878fb61eeb35bfb/Drawing%20Simple%20Geometry/Wavy%20Wall.JPG).
   * Finally, I used the match properties tool to match the properties of the new wavy wall to the properties of the [existing walls](https://github.com/ashthemech/AutoCAD-Learning/blob/b23ef1366f28b58fe0d1f98299f3c86f1e0bf86f/Drawing%20Simple%20Geometry/Wavy%20Wall%20Property%20Match.JPG).
@@ -144,6 +145,35 @@ The content below represents my personal notes and summaries derived from the Li
   * Then I used the center, radius tool to create the circular insert and set the radius to 700mm, confirming the specifications with the [measure tool](https://github.com/ashthemech/AutoCAD-Learning/blob/79c61c57690bdce160be6051f0ad95797453fe31/Drawing%20Simple%20Geometry/My%20Challenge%20Table%20Complete.JPG).
 
   </details>
+</details>
+
+<details>
+<summary> 4. Annotating Simple Designs </summary>
+
+  Key Takeaways:
+  * Learned how to create new text styles in the annotate tab in the home ribbon, creating Dims_MODEL and Labels_MODEL_300mm.
+  * 
+
+<details>
+<summary> Annotation.dwg - Annotating Simple Designs in AutoCAD </summary>
+  
+   > Annotation.dwg is the same previous floor plan used in the previous 3 modules.
+
+  **Working with Text Styles**
+  * Need a way to add text annotation and dimension annotation to designs in dwg files, using "styles".
+  * Encompasses labels, notes, anything to communicate design intent and making sure we are on the appropriate layer.
+  * Can use the home ribbon and pin the anotate flyout, or use the annotate ribbon and oen the text dialog box.
+  * In the text style dialog box, I clicked "new" and named it Dims_MODEL (note, there are naming conventions based on standard procedures for workflows).
+  * I changed the font type to Calibri and left hight at 0 (AutoCAD will ask for the height when placing text).
+  * repeated the process for the Labels_MODEL_300mm, but this time the height was specified to 300mm.
+
+  **Single Line Text and Multiline Text**
+  * Created a new layer to place text called "text" and changed the color to red.
+  * Used multiline text option and specificed an area for the text to be placed by drawing a rectangle, which opened the text editor tab on the ribbon.
+  * Added a background mask with the color cyan, and also bolded and italicized the text reading ["Large Conference Room CONF123"]().
+  * Added a single line text, justifiied to the center of the conference table to label the table as ["Large Conference Table"]().
+
+</details>
 </details>
 
 
