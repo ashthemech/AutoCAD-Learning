@@ -200,6 +200,13 @@ The content below represents my personal notes and summaries derived from the Li
   * Set the endpoint to be the midpoint of a conference chair, and typed "Chair" into the text box.
   * Repeated this process for the hexagon in the center of the [table](https://github.com/ashthemech/AutoCAD-Learning/blob/0f5fb5bb28c0008e1a6bc347279c5258967f6745/Annotating%20Simple%20Designs/QLEADER.JPG).
 
+  **Challenge**
+  
+  Make the previous dimension text placed look smaller (2.5mm) in the drawing, and leave the QLEADER labels the same previous size.
+  
+  * To complete this challange, I opened the Annotations tab in the home ribbon and opened the dimension style dialogue box.
+  * I then changed the preset height in the "Text" tab by clicking "Modify" on the "Training_ANNO" text style, from [4.5mm to 2.5mm]().
+
 </details>
 </details>
 
