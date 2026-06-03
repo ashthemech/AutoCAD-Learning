@@ -120,7 +120,7 @@ The content below represents my personal notes and summaries derived from the Li
   **Creating Lines, Arcs, and Circles**
   * Erased the square tables by selecting the 8 lines created, right clicking and erasing.
   * In the same layer, I recreated the [rectangular table](https://github.com/ashthemech/AutoCAD-Learning/blob/eb57c990ac8c1ecc78780616db0c6d546650dbe4/Drawing%20Simple%20Geometry/Circle%20and%20line%20table.JPG) earlier instead by using lines and 2 point circles with POLAR tracking and using quadrant snap.
-  * To complete the table, I used the trim tool to [remove the inner semicircles](), and added the center circle using [midpoint snapping]().
+  * To complete the table, I used the trim tool to [remove the inner semicircles](https://github.com/ashthemech/AutoCAD-Learning/blob/446693c4d9126fb902b7450081a33766eecc66cc/Drawing%20Simple%20Geometry/trimmed%20table.JPG), and added the center circle using [midpoint snapping]().
     
   </details>
 </details>
