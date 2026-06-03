@@ -128,7 +128,7 @@ The content below represents my personal notes and summaries derived from the Li
   * I started by drawing the top line, entering 2500 metric mm, then right clicking and using the arc tool in the pop up menu at 1500 metric mm.
   * This was repeated for the bottom and left side, and the [table was again created](https://github.com/ashthemech/AutoCAD-Learning/blob/ad03c77413350e85a0ceca62c9d2b2c8813001d7/Drawing%20Simple%20Geometry/Polyline%20Table.JPG) wihtout the center circle.
   * I then added the inner circle to the table using the center, radius tool and setting to 650 mm for the [finished table](https://github.com/ashthemech/AutoCAD-Learning/blob/a8dfbc4b166bb43e094e7a7145fb3dd68f39082f/Drawing%20Simple%20Geometry/Polyline%20Table%20with%20Circle.JPG).
-  * A 6 sided polygon was added using the polygon tool and inscribed in the circle of the table, then I erased the circle to have only the [polygon remaining]().
+  * A 6 sided polygon was added using the polygon tool and inscribed in the circle of the table, then I erased the circle to have only the [polygon remaining](https://github.com/ashthemech/AutoCAD-Learning/blob/80065ebbaffea6c02efe6cc9da9a8fe2a6a9621f/Drawing%20Simple%20Geometry/Polyline%20Table%20with%20Polygon.JPG).
   * Ecplored the measurement tool in utilities to see how it can be used to measure distances within the drawing, measure the thickness of an adjacent wall to be 120.65mm.
   * Used the spline too to create a wavy line, then set the thickness using the offset tool to set the wavy line be the same thickness as the adjacent wall.
   * Then I used the line tool to complete the wall and the extend tool to extend the lower side of the wall to the [adjacent wall]().
