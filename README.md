@@ -136,7 +136,8 @@ The content below represents my personal notes and summaries derived from the Li
   * Finally, I used the match properties tool to match the properties of the new wavy wall to the properties of the [existing walls](https://github.com/ashthemech/AutoCAD-Learning/blob/b23ef1366f28b58fe0d1f98299f3c86f1e0bf86f/Drawing%20Simple%20Geometry/Wavy%20Wall%20Property%20Match.JPG).
 
   **Challenge**
-  Create a polyline with an arc segment and add a circular insert to it to create [another table]() in the office layout.
+  Create a polyline with an arc segment and add a circular insert to it to create [another table](https://github.com/ashthemech/AutoCAD-Learning/blob/e4eb12916ac1d8cee9627b669863e65da8789018/Drawing%20Simple%20Geometry/Challenge%20Table.JPG) in the office layout.
+  * 
     
   </details>
 </details>
