@@ -93,6 +93,7 @@ The content below represents my personal notes and summaries derived from the Li
   * How to use the zoom and pan for navigation in AutoCAD drawings.
   * Used OSNAP and AUTOSNAP for drafting a rectangular table with arcs.
   * Used POLAR and ORTHO for drafting, exploring the main differences between them by drafting a square table.
+  * Recreated the rectangular table with arcs using the circle, line, and the trim tool.
 
   <details>
   <summary> Geometry.dwg - Drawing Simple Geomatry in an AutoCAD File </summary>
