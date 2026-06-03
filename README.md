@@ -170,7 +170,7 @@ The content below represents my personal notes and summaries derived from the Li
   **Single Line Text and Multiline Text**
   * Created a new layer to place text called "text" and changed the color to red.
   * Used multiline text option and specificed an area for the text to be placed by drawing a rectangle, which opened the text editor tab on the ribbon.
-  * Added a background mask with the color cyan, and also bolded and italicized the text reading ["Large Conference Room CONF123"]().
+  * Added a background mask with the color cyan, and also bolded and italicized the text reading ["Large Conference Room CONF123"](https://github.com/ashthemech/AutoCAD-Learning/blob/fbdc673c78522b9af10647fa8c66690347157ae0/Annotating%20Simple%20Designs/CONF123%20text.JPG).
   * Added a single line text, justifiied to the center of the conference table to label the table as ["Large Conference Table"]().
 
 </details>
