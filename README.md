@@ -260,7 +260,7 @@ The content below represents my personal notes and summaries derived from the Li
   * If there were any errors, a redline would appear in the mini preview.
   * I clicked plot, and exported the PDF to my desktop and everything looked good!
 
-  **Challange**
+  **Challenge**
 
   Display the dimension annotations for the conference table in both the 1:40 aspect and the 1:100 aspect in both viewports. 
   * To complete this, I went back into the model tab and ensured the current scale was set to 1:100.
@@ -271,6 +271,19 @@ The content below represents my personal notes and summaries derived from the Li
 </details>
 </details>
 
+## AutoCAd 2026 Essential Training 
+The content below represents my personal notes and summaries derived from the LinkedIn Learning course "AutoCAD 2026 Essential Training" by Shaun Bryant. All original course materials (videos, exercise files) are copyright of LinkedIn Learning and are not included in this repository. The course is linked below, note that it requires authorization to access via membership.
+
+[AutoCAD 2026 Essential Training course by Shaun Bryant](https://www.linkedin.com/learning/autocad-2026-essential-training)
+
+### Course Learning Outcomes
+
+<details>
+<summary> 1. Introduction </summary>
+
+Key Takeaways:
+  
+</details>
 
 
 
