@@ -152,7 +152,8 @@ The content below represents my personal notes and summaries derived from the Li
 
   Key Takeaways:
   * Learned how to create new text styles in the annotate tab in the home ribbon, creating Dims_MODEL and Labels_MODEL_300mm.
-  * 
+  * Learned how to use the multiline text box and single line text box and add a background mask.
+  * Learned how to navigate the Dimension Style Manager and New Dimension Style dialogue boxes when creating a new dimension style.
 
 <details>
 <summary> Annotation.dwg - Annotating Simple Designs in AutoCAD </summary>
@@ -162,16 +163,34 @@ The content below represents my personal notes and summaries derived from the Li
   **Working with Text Styles**
   * Need a way to add text annotation and dimension annotation to designs in dwg files, using "styles".
   * Encompasses labels, notes, anything to communicate design intent and making sure we are on the appropriate layer.
-  * Can use the home ribbon and pin the anotate flyout, or use the annotate ribbon and oen the text dialog box.
+  * Can use the home ribbon and pin the annotate flyout, or use the annotate ribbon and open the text dialog box.
   * In the text style dialog box, I clicked "new" and named it Dims_MODEL (note, there are naming conventions based on standard procedures for workflows).
-  * I changed the font type to Calibri and left hight at 0 (AutoCAD will ask for the height when placing text).
+  * I changed the font type to Calibri and left height at 0 (AutoCAD will ask for the height when placing text).
   * repeated the process for the Labels_MODEL_300mm, but this time the height was specified to 300mm.
 
   **Single Line Text and Multiline Text**
   * Created a new layer to place text called "text" and changed the color to red.
-  * Used multiline text option and specificed an area for the text to be placed by drawing a rectangle, which opened the text editor tab on the ribbon.
+  * Used multiline text option and specified an area for the text to be placed by drawing a rectangle, which opened the text editor tab on the ribbon.
   * Added a background mask with the color cyan, and also bolded and italicized the text reading ["Large Conference Room CONF123"](https://github.com/ashthemech/AutoCAD-Learning/blob/fbdc673c78522b9af10647fa8c66690347157ae0/Annotating%20Simple%20Designs/CONF123%20text.JPG).
-  * Added a single line text, justifiied to the center of the conference table to label the table as ["Large Conference Table"]().
+  * Added a single line text, justifiied to the center of the conference table to label the table as ["Large Conference Table"](https://github.com/ashthemech/AutoCAD-Learning/blob/90f05600f5adeb12d603660e969b2d9216a76a15/Annotating%20Simple%20Designs/CONF123%20Table%20Label.JPG).
+
+  **Creating Dimension Styles**
+  * Creating an effective dimension style is similar to adding labels, but with more parameters.
+  * Opened the Dimension Style Manager dialog box and created a new Dimension Style names "Training_ANNO", using LinkedIn_Learning as the "Start With" option.
+  * Substyles can also be created for specific dimension types, but “all dimensions” was selected for this training.
+  * Explored the tabs in the New Dimension Style dialog box like tolerances, alternate units, etc.
+  * Ensured Dimension and Extension Lines were all set to "By Layer" to make sure it adopts the layer properties, and set Baseline Spacing to 12mm.
+  * Set the First and Second arrowheads to "Closed filled" in the Symbols and Arrows tab.
+  * In the text tab, set the "text style" to the created Dims_MODEL, and in the Primary Units tab the Decimal format is set with a precision of 0.
+
+  **Placing Dimensions**
+  * Ensured I was on the "A-010-D_DIM" layer and the annotation style was the newly created "Training_ANNO" before continuing.
+  * Learned how to set the Dims Layer Override in the Annotation ribbon, which overrides the current layer if style is set to annotation.
+  * Since the dimension style is annotative, it needs an annotation scale in the model that reflects scale in the layout tab.
+    * Went to the ISO A-1 landscape tab and checked that the viewport scale is 1:100, meaning this view is 100th of the size in the model tab.
+    * Went to status bar in model tab, and adjusted the scale to match the viewport.
+    * This tells AutoCAD that anything placed in the annotative style will be scaled accordingly in the viewport.
+  * Added a linear dimension and a radius dimension to the [conference table]() in the conference room using the created dimension style.
 
 </details>
 </details>
