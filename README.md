@@ -94,6 +94,7 @@ The content below represents my personal notes and summaries derived from the Li
   * Used OSNAP and AUTOSNAP for drafting a rectangular table with arcs.
   * Used POLAR and ORTHO for drafting, exploring the main differences between them by drafting a square table.
   * Recreated the rectangular table with arcs using the circle, line, and the trim tool.
+  * Learned how to use the polyline and polygon tool by recreating a version of the previous rectangular table and how to use spline tool and match properties by creating a wavy wall.
 
   <details>
   <summary> Geometry.dwg - Drawing Simple Geometry in an AutoCAD File </summary>
@@ -133,6 +134,9 @@ The content below represents my personal notes and summaries derived from the Li
   * Used the spline too to create a wavy line, then set the thickness using the offset tool to set the wavy line be the same thickness as the adjacent wall.
   * Then I used the line tool to complete the wall and the extend tool to extend the lower side of the wall to the [adjacent wall](https://github.com/ashthemech/AutoCAD-Learning/blob/438ced633edcc4f8303de62fc878fb61eeb35bfb/Drawing%20Simple%20Geometry/Wavy%20Wall.JPG).
   * Finally, I used the match properties tool to match the properties of the new wavy wall to the properties of the [existing walls](https://github.com/ashthemech/AutoCAD-Learning/blob/b23ef1366f28b58fe0d1f98299f3c86f1e0bf86f/Drawing%20Simple%20Geometry/Wavy%20Wall%20Property%20Match.JPG).
+
+  **Challenge**
+  Create a polyline with an arc segment and add a circular insert to it to create [another table]() in the office layout.
     
   </details>
 </details>
