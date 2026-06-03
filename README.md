@@ -1,5 +1,5 @@
 # AutoCAD Learning
-This repository documents my personal learning journey using various AutoCAD LinkedIn Learning courses.
+This repository documents my personal learning journey using various AutoCAD LinkedIn Learning courses using the AutoCAD 2027 15 day trial.
 
 **Disclaimer**: I do not own the copyright to the course videos or original exercise files. All rights belong to LinkedIn Learning and Shaun Bryant. 
 **Repository Content**: The files in this repository are **my own practice drawings and notes** created while following the courses. They are shared here to demonstrate my progress and understanding of AutoCAD.
@@ -91,8 +91,8 @@ The content below represents my personal notes and summaries derived from the Li
   
   Key Takeaways:
   * How to use the zoom and pan for navigation in AutoCAD drawings.
-  * Used ONSNAP and AUTOSNAP for drafting a table.
-  * Used POLAR and ORTHO for drafting.
+  * Used OSNAP and AUTOSNAP for drafting a rectangular table with arcs.
+  * Used POLAR and ORTHO for drafting, exploring the main differences between them by drafting a square table.
 
   <details>
   <summary> Geometry.dwg - Drawing Simple Geomatry in an AutoCAD File </summary>
@@ -100,13 +100,13 @@ The content below represents my personal notes and summaries derived from the Li
   > Geometry.dwg is the same previous floor plan use in the previous 2 modules.
   
   **Using zoom and pan for navigation**
-  * Use the crosshairs to navigate the drawing and the mouse wheele to zoom in and out where the corrhairs lie.
+  * Use the crosshairs to navigate the drawing and the mouse wheel to zoom in and out where the crosshairs lie.
   * Holding down the mousewheel reveals a hand which can be used to pan around the drawing.
   * Can also right click on the mouse to zoom or pan from the shortcut menu.
   * On the rigthand side of the screen is the nav bar with a lot of zoom commands available.
 
-  **ONSNAP and AUTOSNAP**
-  * Configured ONSNAP for endpoint, midpoint, center, intersection and extension.
+  **OSNAP and AUTOSNAP**
+  * Configured OSNAP for endpoint, midpoint, center, intersection and extension.
   * Ensured the layer was set to A-700-M_FFE, then used the rectangle tool in the draw panel to create a table.
   * Used [direct distance entry](https://github.com/ashthemech/AutoCAD-Learning/blob/d4a1ede4136bcbbdbbd4f815208c2aa3a0205f28/Drawing%20Simple%20Geometry/Direct%20Distance%20Entry.JPG) to size the table to 2500 by 1500 in metric millimeters.
   * Used the start, center, end arc tool to [add arcs](https://github.com/ashthemech/AutoCAD-Learning/blob/90a68354bfb13b356d9c2f7fe57e7e04d0fa5656/Drawing%20Simple%20Geometry/Arc%20Table.JPG) to the right and left of the table.
@@ -114,7 +114,13 @@ The content below represents my personal notes and summaries derived from the Li
 
   **POLAR and ORTHO**
   * Continuing in same layer, I made a 1500 metric mm by 1500 metric mm [table using the POLAR tracking](https://github.com/ashthemech/AutoCAD-Learning/blob/ef72715ab3da966c719fe9352d4eaca332f24ac5/Drawing%20Simple%20Geometry/polar%20tracking%20table.JPG) at 90 degrees with the line tool.
-  * 
+  * I repeated the process above, turning off POLAR tracking and this time using the ORTHO tracking with the line tool, restricting to lines only the x and y axis.
+  * ORTHO is great for strictly horizintal and vertical drafting when thta is necessary, while POLAR seems much more versatile with various angles.
+
+  **Creating Lines, Arcs, and Circles**
+  * Erased the square tables by selecting the 8 lines created, right clicking and erasing.
+  * In the same layer, I recreated the [rectangular table]() earlier instead by using lines and 2 point circles with POLAR tracking and using quadrant snap.
+  * To complete the table, I erased 
     
   </details>
 </details>
