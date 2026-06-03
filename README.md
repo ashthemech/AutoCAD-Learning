@@ -205,7 +205,7 @@ The content below represents my personal notes and summaries derived from the Li
   Make the previous dimension text placed look smaller (2.5mm) in the drawing, and leave the QLEADER labels the same previous size.
   
   * To complete this challange, I opened the Annotations tab in the home ribbon and opened the dimension style dialogue box.
-  * I then changed the preset height in the "Text" tab by clicking "Modify" on the "Training_ANNO" text style, from [4.5mm to 2.5mm]().
+  * I then changed the preset height in the "Text" tab by clicking "Modify" on the "Training_ANNO" text style, from [4.5mm to 2.5mm](https://github.com/ashthemech/AutoCAD-Learning/blob/a8ba2c89721f3a9be345eb99aa4e0dcfb9e39cf9/Annotating%20Simple%20Designs/Dimension%20Label%20Challange.JPG).
 
 </details>
 </details>
