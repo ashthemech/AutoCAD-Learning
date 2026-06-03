@@ -95,6 +95,7 @@ The content below represents my personal notes and summaries derived from the Li
   * Used POLAR and ORTHO for drafting, exploring the main differences between them by drafting a square table.
   * Recreated the rectangular table with arcs using the circle, line, and the trim tool.
   * Learned how to use the polyline and polygon tool by recreating a version of the previous rectangular table and how to use spline tool and match properties by creating a wavy wall.
+  * Completed the challenge objective to create a table with a circular insert using polyline and circle tools.
 
   <details>
   <summary> Geometry.dwg - Drawing Simple Geometry in an AutoCAD File </summary>
@@ -125,12 +126,12 @@ The content below represents my personal notes and summaries derived from the Li
   * To complete the table, I used the trim tool to [remove the inner semicircles](https://github.com/ashthemech/AutoCAD-Learning/blob/446693c4d9126fb902b7450081a33766eecc66cc/Drawing%20Simple%20Geometry/trimmed%20table.JPG), and added the center circle using [midpoint snapping](https://github.com/ashthemech/AutoCAD-Learning/blob/68454a31f4a5ae81162923005f5bf8c09da5fdaa/Drawing%20Simple%20Geometry/rectangular%20table%202.JPG).
 
   **Creating Polylines, Polygons and Splines**
-  * Recreating the table as seen in the prevous section, but instead using the polyline tool.
+  * Recreating the table as seen in the previous section, but instead using the polyline tool.
   * I started by drawing the top line, entering 2500 metric mm, then right clicking and using the arc tool in the pop up menu at 1500 metric mm.
   * This was repeated for the bottom and left side, and the [table was again created](https://github.com/ashthemech/AutoCAD-Learning/blob/ad03c77413350e85a0ceca62c9d2b2c8813001d7/Drawing%20Simple%20Geometry/Polyline%20Table.JPG) wihtout the center circle.
   * I then added the inner circle to the table using the center, radius tool and setting to 650 mm for the [finished table](https://github.com/ashthemech/AutoCAD-Learning/blob/a8dfbc4b166bb43e094e7a7145fb3dd68f39082f/Drawing%20Simple%20Geometry/Polyline%20Table%20with%20Circle.JPG).
   * A 6 sided polygon was added using the polygon tool and inscribed in the circle of the table, then I erased the circle to have only the [polygon remaining](https://github.com/ashthemech/AutoCAD-Learning/blob/80065ebbaffea6c02efe6cc9da9a8fe2a6a9621f/Drawing%20Simple%20Geometry/Polyline%20Table%20with%20Polygon.JPG).
-  * Ecplored the measurement tool in utilities to see how it can be used to measure distances within the drawing, measure the thickness of an adjacent wall to be 120.65mm.
+  * Explored the measurement tool in utilities to see how it can be used to measure distances within the drawing, measure the thickness of an adjacent wall to be 120.65mm.
   * Used the spline too to create a wavy line, then set the thickness using the offset tool to set the wavy line be the same thickness as the adjacent wall.
   * Then I used the line tool to complete the wall and the extend tool to extend the lower side of the wall to the [adjacent wall](https://github.com/ashthemech/AutoCAD-Learning/blob/438ced633edcc4f8303de62fc878fb61eeb35bfb/Drawing%20Simple%20Geometry/Wavy%20Wall.JPG).
   * Finally, I used the match properties tool to match the properties of the new wavy wall to the properties of the [existing walls](https://github.com/ashthemech/AutoCAD-Learning/blob/b23ef1366f28b58fe0d1f98299f3c86f1e0bf86f/Drawing%20Simple%20Geometry/Wavy%20Wall%20Property%20Match.JPG).
@@ -141,7 +142,7 @@ The content below represents my personal notes and summaries derived from the Li
   * I completed the bottom of the table by drawing another line and using direct entry to a length of 2500mm.
   * Switching to the arc polyline tool with the mouse menu I made the righthand arc, then completed the table shape by switching again to line and [closing the shape](https://github.com/ashthemech/AutoCAD-Learning/blob/660843c203e19f85714dd383ec3a4e2990bebde4/Drawing%20Simple%20Geometry/My%20Challenge%20Table.JPG).
   * Then I used the center, radius tool to create the circular insert and set the radius to 700mm, confirming the specifications with the [measure tool](https://github.com/ashthemech/AutoCAD-Learning/blob/79c61c57690bdce160be6051f0ad95797453fe31/Drawing%20Simple%20Geometry/My%20Challenge%20Table%20Complete.JPG).
-    
+
   </details>
 </details>
 
