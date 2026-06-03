@@ -139,8 +139,8 @@ The content below represents my personal notes and summaries derived from the Li
   Create a polyline with an arc segment and add a circular insert to it to create [another table](https://github.com/ashthemech/AutoCAD-Learning/blob/8a1c12203fe66cf7ec3580c18ab7a22e9f66aa0f/Drawing%20Simple%20Geometry/Challenge%20Table.JPG) in the office layout.
   * I used the polyline tool to start at the left side of the table with a vertical line of 2000 mm.
   * I completed the bottom of the table by drawing another line and using direct entry to a length of 2500mm.
-  * Switching to the arc polyline tool with the mouse menu I made the righthand arc, then completed the table shape by switching again to line and closing the shape.
-  * 
+  * Switching to the arc polyline tool with the mouse menu I made the righthand arc, then completed the table shape by switching again to line and [closing the shape](https://github.com/ashthemech/AutoCAD-Learning/blob/660843c203e19f85714dd383ec3a4e2990bebde4/Drawing%20Simple%20Geometry/My%20Challenge%20Table.JPG).
+  * Then I used the center, radius tool to create the circular insert and set the radius to 700mm, confirming the specifications with the [measure tool]().
     
   </details>
 </details>
