@@ -127,7 +127,8 @@ The content below represents my personal notes and summaries derived from the Li
   * Recreating the table as seen in the prevous section, but instead using the polyline tool.
   * I started by drawing the top line, entering 2500 metric mm, then right clicking and using the arc tool in the pop up menu at 1500 metric mm.
   * This was repeated for the bottom and left side, and the [table was again created](https://github.com/ashthemech/AutoCAD-Learning/blob/ad03c77413350e85a0ceca62c9d2b2c8813001d7/Drawing%20Simple%20Geometry/Polyline%20Table.JPG) wihtout the center circle.
-  * I then added the inner circle to the table using the center, radius tool and setting to 600 mm for the [finished table]().
+  * I then added the inner circle to the table using the center, radius tool and setting to 650 mm for the [finished table](https://github.com/ashthemech/AutoCAD-Learning/blob/8b4e83821136536cd072d36a67fd537bd61b84df/Drawing%20Simple%20Geometry/Polyline%20Table%20with%20Circle.JPG).
+  * 
     
   </details>
 </details>
