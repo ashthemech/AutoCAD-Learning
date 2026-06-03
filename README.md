@@ -107,7 +107,7 @@ The content below represents my personal notes and summaries derived from the Li
   **ONSNAP and AUTOSNAP**
   * Configured ONSNAP for endpoint, midpoint, center, intersection and extension.
   * Ensured the layer was set to A-700-M_FFE, then used the rectangle tool in the draw panel to create a table.
-  * Used direct distance entry to size the table to 2500 by 1500 in metric millimeters.
+  * Used [direct distance entry](https://github.com/ashthemech/AutoCAD-Learning/blob/d4a1ede4136bcbbdbbd4f815208c2aa3a0205f28/Drawing%20Simple%20Geometry/Direct%20Distance%20Entry.JPG) to size the table to 2500 by 1500 in metric millimeters.
   * Used the start, center, end arc tool to add an arc to the right and left of the table.
   * Used center, radius circle draw tool to draw a 600 metric mm circle in the center of the table using midpoint snap tracking of the rectangle.
     
