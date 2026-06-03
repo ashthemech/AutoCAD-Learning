@@ -190,7 +190,7 @@ The content below represents my personal notes and summaries derived from the Li
     * Went to the ISO A-1 landscape tab and checked that the viewport scale is 1:100, meaning this view is 100th of the size in the model tab.
     * Went to status bar in model tab, and adjusted the scale to match the viewport.
     * This tells AutoCAD that anything placed in the annotative style will be scaled accordingly in the viewport.
-  * Added a linear dimension and a radius dimension to the [conference table]() in the conference room using the created dimension style.
+  * Added a linear dimension and a radius dimension to the [conference table](https://github.com/ashthemech/AutoCAD-Learning/blob/62faf78efa7e3fdbd18aeabb0e91e3399f4d6aaa/Annotating%20Simple%20Designs/Conference%20Table%20with%20Dimensions.JPG) in the conference room using the created dimension style.
 
 </details>
 </details>
