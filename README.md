@@ -126,7 +126,7 @@ The content below represents my personal notes and summaries derived from the Li
   **Creating Polylines, Polygons and Splines**
   * Recreating the table as seen in the prevous section, but instead using the polyline tool.
   * I started by drawing the top line, entering 2500 metric mm, then right clicking and using the arc tool in the pop up menu at 1500 metric mm.
-  * This was repeated for the bottom and left side, and the [table was again created]() wihtout the center circle. 
+  * This was repeated for the bottom and left side, and the [table was again created](https://github.com/ashthemech/AutoCAD-Learning/blob/ad03c77413350e85a0ceca62c9d2b2c8813001d7/Drawing%20Simple%20Geometry/Polyline%20Table.JPG) wihtout the center circle. 
     
   </details>
 </details>
