@@ -218,6 +218,7 @@ The content below represents my personal notes and summaries derived from the Li
   Key Takeaways:
   * Learned how to create a title block and a title text for the offic floor plan in the Landscape tab.
   * Learned how to create a new viewport for a zoomed in view of a specific portion of the model.
+  * Learned how to edit annotative scaling for different viewport ratios.
 
 <details>
 <summary> Communicating.dwg - Commnicating Design Intent in AutoCAD </summary>
@@ -240,12 +241,12 @@ The content below represents my personal notes and summaries derived from the Li
      * Its possible AutoCAD 2027 updated this to happen automatically without needing to go in and adjusting the original settings, the only scale listed is 1:100 when viewing the scales in the annotated dimensions.
    * In any case, I made the [new viewport](https://github.com/ashthemech/AutoCAD-Learning/blob/be4f404a5d4ddb56cd04c9a8d9259c7af00ef613/Communicating%20Design%20Intent/New%20Scaled%20Viewport.JPG) with the 1:40 scale and appropriate dimension label sizes.
 
-  **Scaling Viewports**
-  * We go through the same process to delete the 1:100 scale for the QLEADER labels for the chair and the insert, but the 1:40 scale is not there in my 2027 version either, as seen in the previous section.
-  * I modified the properties of the "Chair" and "Insert" QLEADERS to make the [dot smaller],() from 3.5mm to 2mm.
-  * I realized after finishing the viewo through, that the goal was to have the annotations visible in the 1:40 viewport and be toggled off in the 1:100 viewport.
-    * I went in and dleeted the 1:100 ratio and added in the 1:40 ratio so the annotations would only appear in the 1:40 ratio, thenI manually changed the text size so it is readable in the [1:40 ratio](https://github.com/ashthemech/AutoCAD-Learning/blob/29836886fb82cd5c9e71b1826d3f650bba20c6a8/Communicating%20Design%20Intent/New%20Scaled%20Viewport.JPG).
-    * Not sure what is going on here, but hopefully I will get a deeper understanding in the Essentials Tutorial.
+  **Defining Page Setup**
+  * Simple page setups can be reused for other sheets and layouts to communicate design intent.
+  * Went to "Page setup manager" on the Landscape tab, the layout names are formatted with asteriks around them.
+  * Clicked on "new" and used the ISO A-1 Landscape as a template, naming it "ISO A-1-Landscape-PDF".
+  * Configured the Printer name to be AutoCAD PDF High Quality print, papersize to ISO A-1, and scale set to 1:1 to make sure it fits on the A1 paper size.
+  * Resized the title block layer as the new page caused it to be truncated over the dashed line, and undid the mask on the conference room title block so the text can be viewed in [monochrome preview]().
   
 </details>
 </details>
