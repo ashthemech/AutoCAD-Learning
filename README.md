@@ -155,6 +155,7 @@ The content below represents my personal notes and summaries derived from the Li
   * Learned how to use the multiline text box and single line text box and add a background mask.
   * Learned how to navigate the Dimension Style Manager and New Dimension Style dialogue boxes when creating a new dimension style.
   * Placed dimension annotations to the conference table, setting the appropriate scale from the viewport and setting the override dim layer.
+  * Placed leaders for the chair and hexagonal insert in the conference table using the QLEADER tool.
 
 <details>
 <summary> Annotation.dwg - Annotating Simple Designs in AutoCAD </summary>
@@ -197,7 +198,7 @@ The content below represents my personal notes and summaries derived from the Li
   * Note, Dim Layer override does not work with QLEADER!
   * QLEADER command is in the dynamic input, so when you type it pops up.
   * Set the endpoint to be the midpoint of a conference chair, and typed "Chair" into the text box.
-  * Repeated this process for the hexagon in the center of the [table]().
+  * Repeated this process for the hexagon in the center of the [table](https://github.com/ashthemech/AutoCAD-Learning/blob/0f5fb5bb28c0008e1a6bc347279c5258967f6745/Annotating%20Simple%20Designs/QLEADER.JPG).
 
 </details>
 </details>
