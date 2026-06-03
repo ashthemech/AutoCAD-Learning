@@ -217,6 +217,7 @@ The content below represents my personal notes and summaries derived from the Li
 
   Key Takeaways:
   * Learned how to create a title block and a title text for the offic floor plan in the Landscape tab.
+  * Learned how to create a new viewport for a zoomed in view of a specific portion of the model.
 
 <details>
 <summary> Communicating.dwg - Commnicating Design Intent in AutoCAD </summary>
@@ -226,18 +227,22 @@ The content below represents my personal notes and summaries derived from the Li
   **Creating a Title Block**
   * Communicating design intent is extremely important in the industry - sizes, what is your design?
   * This is how I want my design to look, be built, be manufactured, etc.
-  * Normally, you develp a page setup and a specific title block for the drawings but here we use a "cheat" tite block for clarity and speed.
+  * Normally, you develop a page setup and a specific title block for the drawings but here we use a "cheat" title block for clarity and speed.
   * Went into the ISO A-1 Landscape sheet and ensured I was on the title block layer.
-  * Added a rectangle using the drawing tool in the title block layer, ensuring to stay wihtin the dashed lines so nothng is truncated.
+  * Added a rectangle using the drawing tool in the title block layer, ensuring to stay within the dashed lines so nothing is truncated.
   * Created a new annotation text style called "Title_LAYOUT_15mm" and added a title of ["Office Floor Plan - GENERAL LAYOUT"](https://github.com/ashthemech/AutoCAD-Learning/blob/a0775089beeeb1ea72fe06b77acb5ab19947758b/Communicating%20Design%20Intent/Title%20Block%20and%20Title%20Text.JPG) in the "Titletext" layer.
   * The "Layout" tab provides information on the current layout being worked in while in layout tabs.
-  * AutoCAd automatically fits what is in the MODEL tab into the viewport and it can be scaled or zoomed.
+  * AutoCAD automatically fits what is in the MODEL tab into the viewport and it can be scaled or zoomed.
 
-   **Scaling Viewports**
+  **Scaling Viewports**
    * I used the Layout tab in the Landscape file to add a new viewport of the conference room, scaled at 1:40.
-   * The turorial shoed going back inot the MODEL file and deleting the 1:100 scale from the annotated dimensions, but when I did so it shrunk the annotated dimensions in the 1:40 viewport as well.
-     * Its possible AutoCAD 2027 updated this to haen automatically without needing to go in and ajudst the original settings, the only scale listed is 1:100 when viewing the scales in the annotated dimensions.
-   * In any case, I made the [new viewport]() with the 1:40 scale and appropriate dimension label sizes.
+   * The tutorial showed going back into the MODEL file and deleting the 1:100 scale from the annotated dimensions, but when I did so it shrunk the annotated dimensions in the 1:40 viewport as well.
+     * Its possible AutoCAD 2027 updated this to happen automatically without needing to go in and adjusting the original settings, the only scale listed is 1:100 when viewing the scales in the annotated dimensions.
+   * In any case, I made the [new viewport](https://github.com/ashthemech/AutoCAD-Learning/blob/be4f404a5d4ddb56cd04c9a8d9259c7af00ef613/Communicating%20Design%20Intent/New%20Scaled%20Viewport.JPG) with the 1:40 scale and appropriate dimension label sizes.
+
+  **Scaling Viewports**
+  * We go through the same process to delete the 1:100 scale for the QLEADER labels for the chair and the insert, but the 1:40 scale is not there in my 2027 version either, as seen in the previous section.
+  * I modified the properties of the "Chair" and "Insert" QLEADERS to make the [dot smaller],() from 3.5mm to 2mm.
   
 </details>
 </details>
