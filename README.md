@@ -4,7 +4,7 @@ This repository documents my personal learning journey using various AutoCAD Lin
 **Disclaimer**: I do not own the copyright to the course videos or original exercise files. All rights belong to LinkedIn Learning and Shaun Bryant. 
 **Repository Content**: The files in this repository are **my own practice drawings and notes** created while following the courses. They are shared here to demonstrate my progress and understanding of AutoCAD.
 
-## Learning AutoCAD 2026
+## Learning AutoCAD 2026 - Completed 6/3/26
 The content below represents my personal notes and summaries derived from the LinkedIn Learning course "Learning AutoCAd 2026" by Shaun Bryant. All original course materials (videos, exercise files) are copyright of LinkedIn Learning and are not included in this repository. The course is linked below, note that it requires authorization to access via membership.
 
 [Learning AutoCAD 2026 course by Shaun Bryant](https://www.linkedin.com/learning/learning-autocad-2026)
@@ -221,6 +221,8 @@ The content below represents my personal notes and summaries derived from the Li
   * Learned how to edit annotative scaling for different viewport ratios.
   * Learned how to create a page setup using the page setup manager to create an electronic PDF.
   * Learned how to plot a drawing from the Layout tab into a PDF that exported to my desktop.
+  * Learned how to add multiple annotation scales to annotative objects in the challange.
+  * Completed the chapter quiz, 3/3.
 
 <details>
 <summary> Communicating.dwg - Commnicating Design Intent in AutoCAD </summary>
