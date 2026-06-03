@@ -113,7 +113,8 @@ The content below represents my personal notes and summaries derived from the Li
   * Used center, radius circle draw tool to draw a [600 metric mm circle in the center of the table](https://github.com/ashthemech/AutoCAD-Learning/blob/9b32ec50a54101f5e907216cd9c28d805412561a/Drawing%20Simple%20Geometry/Object%20snap%20tracking.JPG) using midpoint snap tracking of the rectangle.
 
   **POLAR and ORTHO**
-  * Continuing in same layer, I made a 1500 metric mm by 1500 metric mm table using the POLAR tracking at 90 degrees with the line tool.
+  * Continuing in same layer, I made a 1500 metric mm by 1500 metric mm [table using the POLAR tracking](https://github.com/ashthemech/AutoCAD-Learning/blob/ef72715ab3da966c719fe9352d4eaca332f24ac5/Drawing%20Simple%20Geometry/polar%20tracking%20table.JPG) at 90 degrees with the line tool.
+  * 
     
   </details>
 </details>
