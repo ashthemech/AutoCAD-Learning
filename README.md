@@ -101,7 +101,7 @@ The content below represents my personal notes and summaries derived from the Li
   <details>
   <summary> Geometry.dwg - Drawing Simple Geometry in an AutoCAD File </summary>
     
-  > Geometry.dwg is the same previous floor plan used in the previous 2 modules.
+  > Geometry.dwg is the same floor plan used in the previous 2 modules.
   
   **Using zoom and pan for navigation**
   * Use the crosshairs to navigate the drawing and the mouse wheel to zoom in and out where the crosshairs lie.
@@ -156,11 +156,13 @@ The content below represents my personal notes and summaries derived from the Li
   * Learned how to navigate the Dimension Style Manager and New Dimension Style dialogue boxes when creating a new dimension style.
   * Placed dimension annotations to the conference table, setting the appropriate scale from the viewport and setting the override dim layer.
   * Placed leaders for the chair and hexagonal insert in the conference table using the QLEADER tool.
+  * Completed the challenge to resize the dimension text.
+  * Completed the chapter quiz, 5/5.
 
 <details>
 <summary> Annotation.dwg - Annotating Simple Designs in AutoCAD </summary>
   
-   > Annotation.dwg is the same previous floor plan used in the previous 3 modules.
+   > Annotation.dwg is the same floor plan used in the previous 3 modules.
 
   **Working with Text Styles**
   * Need a way to add text annotation and dimension annotation to designs in dwg files, using "styles".
@@ -207,6 +209,28 @@ The content below represents my personal notes and summaries derived from the Li
   * To complete this challange, I opened the Annotations tab in the home ribbon and opened the dimension style dialogue box.
   * I then changed the preset height in the "Text" tab by clicking "Modify" on the "Training_ANNO" text style, from [4.5mm to 2.5mm](https://github.com/ashthemech/AutoCAD-Learning/blob/a8ba2c89721f3a9be345eb99aa4e0dcfb9e39cf9/Annotating%20Simple%20Designs/Dimension%20Label%20Challange.JPG).
 
+</details>
+</details>
+
+<details>
+<summary> 5. Communicating Design Intent </summary>
+
+  Key Takeaways:
+  * blah
+
+<details>
+<summary> Communicating.dwg - Commnicating Design Intent in AutoCAD </summary>
+
+  > Communication.dwg is the same floor plan used in the previous 4 modules.
+
+  **Creating a Title Block**
+  * Communicating design intent is extremely important in the industry - sizes, what is your design?
+  * This is how I want my design to look, be built, be manufactured, etc.
+  * Normally, you develp a page setup and a specific title block for the drawings but here we use a "cheat" tite block for clarity and speed.
+  * Went into the ISO A-! Landscape sheet and ensured I was on the title block layer.
+  * Added a rectangle using the drawing tool in the title block layer, ensuring to stay wihtin the dashed lines so nothng is truncated.
+  * Created a new annotation text style called "Title_LAYOUT_15mm" and added a title of ["Office Floor Plan - GENERAL LAYOUT"]() in the "Titletext" layer.
+  
 </details>
 </details>
 
