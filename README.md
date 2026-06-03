@@ -22,7 +22,7 @@ The content below represents my personal notes and summaries derived from the Li
   <details>
   <summary> Introduction.dwg - AutoCAD Interface Layout </summary>
 
-  Introduction.dwg is a floor plan of an office used to explore the AutoCAD Interface.
+  > Introduction.dwg is a floor plan of an office used to explore the AutoCAD Interface.
   * "Model" Tab - where all deisgn work is done in AutoCAD.
   * Quick access toolbar and ribbon, similar to Word or SolidWorks layout.
   * Status Bar controls drafting settings within AutoCAD, used to draft a model accurately and precisely.
@@ -40,11 +40,13 @@ The content below represents my personal notes and summaries derived from the Li
   * How to use the status bar.
   * Using web and mobile with AutoCAD desktop.
   * Challange - dock the layer properties and set auto-hide property.
+  * Completed AutoCAD Interface Quiz, 5/5.
 
   <details>
-  <summary> Inerface.dwg - AutoCAD Interface Layout </summary>
+  <summary> Interface.dwg - AutoCAD Interface Layout </summary>
 
-  Interface.dwg is a floor plan of another office building, used to dive deeper into the AutoCAD interface.
+  > Interface.dwg is a floor plan of another office building, used to dive deeper into the AutoCAD interface.
+  
   **Application Menu**
   * The application menu can be used to open a file, create a new file, save the current file in multiple formats, convert dwg format, import/export, publish, etc.
   * Files can be sorted by ordered lists and can be viewed as icons or images.
@@ -76,9 +78,42 @@ The content below represents my personal notes and summaries derived from the Li
   * You can also save files to the web and mobile folders via cloud storage on the quick accesss toolbar.
 
   **Challange**
+  
   Dock the Layer Properties manager Palette on the left side of the screen and configure auto-hide so it expands when hovered over and dissapears when left.
   * To achieve this, I opened the Layers Property Manager, then dragged it to the left hand side so [it was docked.](https://github.com/ashthemech/AutoCAD-Learning/blob/0e62a0c408cc6ba15fcbe49a1262972c15a21546/AutoCAD%20Interface/Docked%20PM.JPG)
   * Then, I clicked the [auto-hide button](https://github.com/ashthemech/AutoCAD-Learning/blob/d2627833c4dce2a5a0cde41b6d136c15bce10713/AutoCAD%20Interface/Auto-hide%20PM.JPG) and now the LPM palatte reveals itself when I hover over it, and hides when I move my cursor off the menu.
 
+</details>
+</details>
+
+<details>
+<summary> 3. Drawing Simple Geometry </summary>
+  
+  Key Takeaways:
+  * How to use the zoom and pan for navigation in AutoCAD drawings.
+  * Using ONSNAP and AUTOSNAP for drafting.
+
+  <details>
+  <summary> Geometry.dwg - Drawing Simple Geomatry in an AutoCAD File </summary>
+    
+  > Geometry.dwg is the same previous floor plan use in the previous 2 modules.
+  
+  **Using zoom and pan for navigation**
+  * Use the crosshairs to navigate the drawing and the mouse wheele to zoom in and out where the corrhairs lie.
+  * Holding down the mousewheel reveals a hand which can be used to pan around the drawing.
+  * Can also right click on the mouse to zoom or pan from the shortcut menu.
+  * On the rigthand side of the screen is the nav bar with a lot of zoom commands available.
+
+  **ONSNAP and AUTOSNAP**
+  * Configured ONSNAP for endpoint, midpoint, center, intersection and extension.
+  * Ensured the layer was set to A-700-M_FFE, then used the rectangle tool in the draw panel to create a table.
+  * Used direct distance entry to size the table to 2500 by 1500 in metric millimeters.
+  * Used the start, center, end arc tool to add an arc to the right and left of the table.
+  * Used center, radius circle draw tool to draw a 600 metric mm circle in the center of the table using midpoint snap tracking of the rectangle.
+    
   </details>
 </details>
+
+
+
+
