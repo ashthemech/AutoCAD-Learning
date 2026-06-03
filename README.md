@@ -219,6 +219,8 @@ The content below represents my personal notes and summaries derived from the Li
   * Learned how to create a title block and a title text for the offic floor plan in the Landscape tab.
   * Learned how to create a new viewport for a zoomed in view of a specific portion of the model.
   * Learned how to edit annotative scaling for different viewport ratios.
+  * Learned how to create a page setup using the page setup manager to create an electronic PDF.
+  * Learned how to plot a drawing from the Layout tab into a PDF that exported to my desktop.
 
 <details>
 <summary> Communicating.dwg - Commnicating Design Intent in AutoCAD </summary>
@@ -243,10 +245,26 @@ The content below represents my personal notes and summaries derived from the Li
 
   **Defining Page Setup**
   * Simple page setups can be reused for other sheets and layouts to communicate design intent.
-  * Went to "Page setup manager" on the Landscape tab, the layout names are formatted with asteriks around them.
+  * Went to "Page setup manager" on the Landscape tab, the layout names are formatted with asterisks around them.
   * Clicked on "new" and used the ISO A-1 Landscape as a template, naming it "ISO A-1-Landscape-PDF".
   * Configured the Printer name to be AutoCAD PDF High Quality print, papersize to ISO A-1, and scale set to 1:1 to make sure it fits on the A1 paper size.
-  * Resized the title block layer as the new page caused it to be truncated over the dashed line, and undid the mask on the conference room title block so the text can be viewed in [monochrome preview]().
+  * Resized the title block layer as the new page caused it to be truncated over the dashed line, and undid the mask on the conference room title block so the text can be viewed in [monochrome preview](https://github.com/ashthemech/AutoCAD-Learning/blob/f4a57035c6d3ee4ad0c441dade2dd87a56d27ad8/Communicating%20Design%20Intent/Page%20Setup.JPG).
+
+  **Printing and Plotting Drawings**
+  * We want to be able to also plot our drawings.
+  * IMPORTANT: Sanity check, before you plot ANYTHING always do a preview!!
+  * Clocking plot, the plot dialogue box appears- it looks quite similar to the page setup dialogue box.
+  * All of the settings here are transferred from the page setup, with some additional settings (plot stamp, layout changes, and preview).
+  * If there were any errors, a redline would appear in the mini preview.
+  * I clicked plot, and exported the PDF to my desktop and everything looked good!
+
+  **Challange**
+
+  Display the dimension annotations for the conference table in both the 1:40 aspect and the 1:100 aspect in both viewports. 
+  * To complete this, I went back into the model tab and ensured the current scale was set to 1:100.
+  * Then, I clicked on the radius, width, and length of the conference table, right clicked and selected "add current scale" in the annotative object list.
+  * This added the 1:100 scale to all the dimensions, and keeps them at the expected ratios for each scale in the [ISO A1 Landscape tab]().
+  * I am curious how in practice this is done to not crowd diagrams and have appropriate sizing of the dimensions across different viewports. 
   
 </details>
 </details>
