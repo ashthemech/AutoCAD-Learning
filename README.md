@@ -263,7 +263,7 @@ The content below represents my personal notes and summaries derived from the Li
   Display the dimension annotations for the conference table in both the 1:40 aspect and the 1:100 aspect in both viewports. 
   * To complete this, I went back into the model tab and ensured the current scale was set to 1:100.
   * Then, I clicked on the radius, width, and length of the conference table, right clicked and selected "add current scale" in the annotative object list.
-  * This added the 1:100 scale to all the dimensions, and keeps them at the expected ratios for each scale in the [ISO A1 Landscape tab]().
+  * This added the 1:100 scale to all the dimensions, and keeps them at the expected ratios for each scale in the [ISO A1 Landscape tab](https://github.com/ashthemech/AutoCAD-Learning/blob/f67ff8c7741f5feedbf583138a591af40b7dcb71/Communicating%20Design%20Intent/Annotations%20in%20both%20viewports.JPG).
   * I am curious how in practice this is done to not crowd diagrams and have appropriate sizing of the dimensions across different viewports. 
   
 </details>
