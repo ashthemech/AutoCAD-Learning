@@ -154,6 +154,7 @@ The content below represents my personal notes and summaries derived from the Li
   * Learned how to create new text styles in the annotate tab in the home ribbon, creating Dims_MODEL and Labels_MODEL_300mm.
   * Learned how to use the multiline text box and single line text box and add a background mask.
   * Learned how to navigate the Dimension Style Manager and New Dimension Style dialogue boxes when creating a new dimension style.
+  * Placed dimension annotations to the conference table, setting the appropriate scale from the viewport and setting the override dim layer.
 
 <details>
 <summary> Annotation.dwg - Annotating Simple Designs in AutoCAD </summary>
@@ -191,6 +192,12 @@ The content below represents my personal notes and summaries derived from the Li
     * Went to status bar in model tab, and adjusted the scale to match the viewport.
     * This tells AutoCAD that anything placed in the annotative style will be scaled accordingly in the viewport.
   * Added a linear dimension and a radius dimension to the [conference table](https://github.com/ashthemech/AutoCAD-Learning/blob/62faf78efa7e3fdbd18aeabb0e91e3399f4d6aaa/Annotating%20Simple%20Designs/Conference%20Table%20with%20Dimensions.JPG) in the conference room using the created dimension style.
+
+  **Adding Leaders (QLEADER)**
+  * Note, Dim Layer override does not work with QLEADER!
+  * QLEADER command is in the dynamic input, so when you type it pops up.
+  * Set the endpoint to be the midpoint of a conference chair, and typed "Chair" into the text box.
+  * Repeated this process for the hexagon in the center of the [table]().
 
 </details>
 </details>
