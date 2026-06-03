@@ -122,6 +122,11 @@ The content below represents my personal notes and summaries derived from the Li
   * Erased the square tables by selecting the 8 lines created, right clicking and erasing.
   * In the same layer, I recreated the [rectangular table](https://github.com/ashthemech/AutoCAD-Learning/blob/eb57c990ac8c1ecc78780616db0c6d546650dbe4/Drawing%20Simple%20Geometry/Circle%20and%20line%20table.JPG) earlier instead by using lines and 2 point circles with POLAR tracking and using quadrant snap.
   * To complete the table, I used the trim tool to [remove the inner semicircles](https://github.com/ashthemech/AutoCAD-Learning/blob/446693c4d9126fb902b7450081a33766eecc66cc/Drawing%20Simple%20Geometry/trimmed%20table.JPG), and added the center circle using [midpoint snapping](https://github.com/ashthemech/AutoCAD-Learning/blob/68454a31f4a5ae81162923005f5bf8c09da5fdaa/Drawing%20Simple%20Geometry/rectangular%20table%202.JPG).
+
+  **Creating Polylines, Polygons and Splines**
+  * Recreating the table as seen in the prevous section, but instead using the polyline tool.
+  * I started by drawing the top line, entering 2500 metric mm, then right clicking and using the arc tool in the pop up menu at 1500 metric mm.
+  * This was repeated for the bottom and left side, and the [table was again created]() wihtout the center circle. 
     
   </details>
 </details>
