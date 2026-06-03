@@ -78,7 +78,7 @@ The content below represents my personal notes and summaries derived from the Li
   **Challange**
   Dock the Layer Properties manager Palette on the left side of the screen and configure auto-hide so it expands when hovered over and dissapears when left.
   * To achieve this, I opened the Layers Property Manager, then dragged it to the left hand side so [it was docked.](https://github.com/ashthemech/AutoCAD-Learning/blob/0e62a0c408cc6ba15fcbe49a1262972c15a21546/AutoCAD%20Interface/Docked%20PM.JPG)
-  * Then, I clicked the auto-hide button and now the LPM palatte reveals itself when I hover over it, and hides when I move my cursor off the menu.
+  * Then, I clicked the [auto-hide button](https://github.com/ashthemech/AutoCAD-Learning/blob/d2627833c4dce2a5a0cde41b6d136c15bce10713/AutoCAD%20Interface/Auto-hide%20PM.JPG) and now the LPM palatte reveals itself when I hover over it, and hides when I move my cursor off the menu.
 
   </details>
 </details>
