@@ -243,6 +243,9 @@ The content below represents my personal notes and summaries derived from the Li
   **Scaling Viewports**
   * We go through the same process to delete the 1:100 scale for the QLEADER labels for the chair and the insert, but the 1:40 scale is not there in my 2027 version either, as seen in the previous section.
   * I modified the properties of the "Chair" and "Insert" QLEADERS to make the [dot smaller],() from 3.5mm to 2mm.
+  * I realized after finishing the viewo through, that the goal was to have the annotations visible in the 1:40 viewport and be toggled off in the 1:100 viewport.
+    * I went in and dleeted the 1:100 ratio and added in the 1:40 ratio so the annotations would only appear in the 1:40 ratio, thenI manually changed the text size so it was visible in the [1:40 ratio]().
+    * Not sure what is going on here, but hopefully I will get a deeper understanding in the Essentials Tutorial.
   
 </details>
 </details>
