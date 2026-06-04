@@ -1,10 +1,9 @@
-# AutoCAD Learning
+# Learning AutoCAD 2026 - Completed 6/3/26
 This repository documents my personal learning journey using an AutoCAD LinkedIn Learning course with the AutoCAD 2027 15 day trial.
 
 **Disclaimer**: I do not own the copyright to the course videos or original exercise files. All rights belong to LinkedIn Learning and Shaun Bryant. 
 **Repository Content**: The files in this repository are **my own practice drawings and notes** created while following the courses. They are shared here to demonstrate my progress and understanding of AutoCAD.
 
-## Learning AutoCAD 2026 - Completed 6/3/26
 The content below represents my personal notes and summaries derived from the LinkedIn Learning course "Learning AutoCAd 2026" by Shaun Bryant. All original course materials (videos, exercise files) are copyright of LinkedIn Learning and are not included in this repository. The course is linked below, note that it requires authorization to access via membership.
 
 [Learning AutoCAD 2026 course by Shaun Bryant](https://www.linkedin.com/learning/learning-autocad-2026)
